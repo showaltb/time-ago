@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script type="importmap">
+      {
+        "imports": {
+          "lit": "./web_modules/lit.js",
+          "s-ago": "./web_modules/s-ago.js"
+        }
+      }
+    </script>
+    <script type="module" src="./time-ago.js"></script>
+  </head>
+  <body>
+    <h1>Time Ago Example</h1>
+    <p>Time ago: <time-ago seconds="1674430982"></time-ago></p>
+    <p>Bogus Time ago: <time-ago seconds="xxx"></time-ago></p>
+  </body>
+</html>

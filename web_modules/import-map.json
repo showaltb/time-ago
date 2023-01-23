@@ -1,0 +1,6 @@
+{
+  "imports": {
+    "lit": "./lit.js",
+    "s-ago": "./s-ago.js"
+  }
+}

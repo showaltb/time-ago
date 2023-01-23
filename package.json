@@ -1,0 +1,19 @@
+{
+  "name": "time-ago",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "package": "yarn node scripts/package.js",
+    "serve": "yarn live-server"
+  },
+  "devDependencies": {
+    "esinstall": "^1.1.7",
+    "lit": "^2.6.1",
+    "live-server": "^1.2.2",
+    "s-ago": "^2.2.0",
+    "standard": "^17.0.0"
+  },
+  "packageManager": "yarn@3.3.1"
+}
